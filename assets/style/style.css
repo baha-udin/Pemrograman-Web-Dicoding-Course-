@@ -1,8 +1,25 @@
-.phone {
+body {
+    font-family: sans-serif;
+}
+
+h2, h3 {
+    color: #00a2c6;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: #00a2c6;
+}
+
+span {
+    color: white;
     font-weight: bold;
 }
-.login {
+
+.city {
     font-weight: bold;
-    font-size: 20px;
-    color: blueviolet;
+}
+li {
+    margin-top: 10px;
 }
