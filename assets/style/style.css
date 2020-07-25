@@ -2,7 +2,13 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+main {
+    padding: 20px;
+}
+
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -14,19 +20,47 @@ h2, h3 {
     font-size: 1,5rem;
     text-transform: uppercase; /*text-transform: ngatur capslock tidaknya teks*/
 }
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
 /* p {
     line-height: 1.5rem;   //*line-height: mengatur jarak baris antar paragraf */
     /*text-align: left; //text align: mengatur rata kiri, kanan, tengah paragraf kyak di word*/
     /*text-decoration: none; //text decoration: biasanya u ngilangin efek underline pada link } */
 /* p#first {
     text-indent: 2em; //*text-indent: kayak TAb, spasi menjorok kedalam awal paragram} */
+    /* nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+} */
+ 
+li {
+    margin-left: 5px;
+    display: inline;
+    text-decoration: none;
+} 
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
 nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-}
-nav a:hover {
-    font-weight: bold;
+    color: white;
 }
 
 footer {
@@ -45,11 +79,26 @@ span {
 .city {
     font-weight: bold;
 }
-li {
-    margin-top: 10px;
-}
-
 .profile header {
     text-align: center;
 }
+.profile img {
+    width: 200px;
+}
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 25px;
+    margin: 10px;
+
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
