@@ -1,15 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;515;600;700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0px #00a2c6; /*text-shadow: buat bayangan di teks */
 }
 
 h2, h3 {
     color: #00a2c6;
+    font-size: 1,5rem;
+    text-transform: uppercase; /*text-transform: ngatur capslock tidaknya teks*/
+}
+/* p {
+    line-height: 1.5rem;   //*line-height: mengatur jarak baris antar paragraf */
+    /*text-align: left; //text align: mengatur rata kiri, kanan, tengah paragraf kyak di word*/
+    /*text-decoration: none; //text decoration: biasanya u ngilangin efek underline pada link } */
+/* p#first {
+    text-indent: 2em; //*text-indent: kayak TAb, spasi menjorok kedalam awal paragram} */
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav a:hover {
+    font-weight: bold;
 }
 
 footer {
     padding: 5px;
     color: white;
     background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
 }
 
 span {
@@ -23,3 +48,8 @@ span {
 li {
     margin-top: 10px;
 }
+
+.profile header {
+    text-align: center;
+}
+
